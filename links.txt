@@ -1,0 +1,8 @@
+1 day - slider
+https://jsfiddle.net/VitaliyPidopryhora/6rj0eb1p/4/
+
+2 day - Drag n Drop
+https://jsfiddle.net/VitaliyPidopryhora/ed0sagpz/1/
+
+3 day - slider
+https://jsfiddle.net/VitaliyPidopryhora/1utebpf2/1/
