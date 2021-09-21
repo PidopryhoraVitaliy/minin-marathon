@@ -44,8 +44,18 @@ function finishGame() {
     board.innerHTML = `<h1>Score: <span class="primary">${score}</span></h1>`
 }
 
+function winTheGame() {
+    function kill() {
+        const circle = document.querySelector('.circle')
+        if (circle) {
+            circle.click()
+        }
+    }
+    setInterval(kill, 75)
+}
+
 function decreaseTime() {
-    console.log('decreaseTime: ' + time);
+    //console.log('decreaseTime: ' + time);
     if (time === 0) {
         finishGame()
         return
@@ -55,13 +65,13 @@ function decreaseTime() {
 }
 
 function setTime(value) {
-    timeEl.innerHTML = `00:${ value<10 ? '0'+value : value }`
+    timeEl.innerHTML = `00:${value < 10 ? '0' + value : value}`
 }
 
 function createRandomCircle() {
     const circle = document.createElement('div')
     const diameter = getRandomNumber(MIN_DIAMETER, MAX_DIAMETER)
-    const {width, height} = board.getBoundingClientRect()
+    const { width, height } = board.getBoundingClientRect()
     const x = getRandomNumber(0, width - diameter)
     const y = getRandomNumber(0, height - diameter)
     circle.classList.add('circle')
@@ -74,7 +84,7 @@ function createRandomCircle() {
 }
 
 function getRandomNumber(min, max) {
-    return Math.round(Math.random() * (max-min) + min)
+    return Math.round(Math.random() * (max - min) + min)
 }
 
 function getRandomColor() {
