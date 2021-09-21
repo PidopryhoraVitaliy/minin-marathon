@@ -1,14 +1,17 @@
-1 day - cards
+01-cards
 https://jsfiddle.net/VitaliyPidopryhora/6rj0eb1p/1/
 https://jsfiddle.net/VitaliyPidopryhora/6rj0eb1p/4/
 
-2 day - Drag n Drop
+02-drag-n-drop
 https://jsfiddle.net/VitaliyPidopryhora/ed0sagpz/1/
 
-3 day - slider
+03-slider
 https://jsfiddle.net/VitaliyPidopryhora/1utebpf2/1/
 https://jsfiddle.net/VitaliyPidopryhora/1utebpf2/2/
 
-4 day - board
+04-board
 https://jsfiddle.net/VitaliyPidopryhora/4c6wgjmd/1/
 https://jsfiddle.net/VitaliyPidopryhora/4c6wgjmd/2/
+
+05-aim-game
+https://jsfiddle.net/VitaliyPidopryhora/on65det4/1/
