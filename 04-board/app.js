@@ -1,6 +1,6 @@
 const board = document.querySelector('#board')
 const colors = ['aqua', 'chartreuse', 'fuchsia', 'greenyellow', 'orange', 'yellow', 'blue']
-const SQUARES_NUMBER = 400
+const SQUARES_NUMBER = 420
 const SQUARES_BACKGROUNDCOLOR = '#1d1d1d'
 const SQUARES_BOXSHADOW = '0 0 2px #000'
 
@@ -34,6 +34,9 @@ function getRandomColor() {
 //function removeColor(square) {
 function removeColor(event) {
     const square = event.target
-    square.style.backgroundColor = SQUARES_BACKGROUNDCOLOR
-    square.style.boxShadow = SQUARES_BOXSHADOW
+    //square.style.backgroundColor = SQUARES_BACKGROUNDCOLOR
+    //square.style.boxShadow = SQUARES_BOXSHADOW
+    square.style.backgroundColor = 'transparent'
+    square.style.boxShadow = 'none'
+    square.style.border = 'none'
 }
