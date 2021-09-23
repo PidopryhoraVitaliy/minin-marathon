@@ -12,6 +12,7 @@ https://jsfiddle.net/VitaliyPidopryhora/1utebpf2/2/
 04-board
 https://jsfiddle.net/VitaliyPidopryhora/4c6wgjmd/1/
 https://jsfiddle.net/VitaliyPidopryhora/4c6wgjmd/2/
+https://jsfiddle.net/VitaliyPidopryhora/4c6wgjmd/14/
 
 05-aim-game
 https://jsfiddle.net/VitaliyPidopryhora/on65det4/1/
